@@ -27,10 +27,10 @@ const useEmail = () => {
         }
 
         send(
-            "service_36q4vyh",
-            "template_hldt8as",
+           // "service_36q4vyh",
+           // "template_hldt8as",
             formData,
-            "qKi87D5s3LUgzTv8I"
+           // "qKi87D5s3LUgzTv8I"
         )
             .then((response) => {
                 console.log("SUCCESS!", response.status, response.text);
